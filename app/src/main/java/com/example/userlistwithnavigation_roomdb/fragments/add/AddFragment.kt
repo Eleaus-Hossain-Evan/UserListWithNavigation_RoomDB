@@ -9,11 +9,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import androidx.navigation.fragment.findNavController
 import com.example.userlistwithnavigation_roomdb.R
-import com.example.userlistwithnavigation_roomdb.data.User
-import com.example.userlistwithnavigation_roomdb.data.UserViewModel
+import com.example.userlistwithnavigation_roomdb.model.User
+import com.example.userlistwithnavigation_roomdb.viewmodel.UserViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_add.view.*
 
